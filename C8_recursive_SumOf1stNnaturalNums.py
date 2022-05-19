@@ -4,7 +4,7 @@
 
 def recur_sum(n):
     if n==1 or n==0:
-       return 1
+       return n
     elif n<0:
         print("Enter positive number")
     else:
